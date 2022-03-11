@@ -1,0 +1,131 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{AnnArbor}
+\usecolortheme{beaver}
+\usefonttheme{structurebold}
+\usepackage{hyperref}
+
+\usepackage{textcomp}
+% For Referencing
+
+\usepackage[backend=biber,style=numeric, citestyle=ieee,natbib=true,hyperref=true,bibencoding=utf8]{biblatex}
+\addbibresource{../assets/sample.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%Title Page for the Presentation%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[Short Title]{Title of the Presentation}
+\author[Piyush]{Piyush Kumar Dongre}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+
+%**************************************************************************
+\section{Introduction}\label{sec:introduction}
+%**************************************************************************
+
+
+%------------------------------------------------------------------------------
+\subsection{Main Idea}\label{sec:mainidea}
+%------------------------------------------------------------------------------
+\begin{frame}
+    \frametitle{\subsecname}
+    \begin{enumerate}
+        \item item -1
+
+              \vspace{1cm}
+
+        \item item -2
+
+              \vspace{1cm}
+
+        \item item -3
+
+
+
+    \end{enumerate}
+\end{frame}
+
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+\subsection{Another section}
+%------------------------------------------------------------------------------
+\begin{frame}[allowframebreaks]
+    \frametitle{\secname \textrightarrow}
+
+    \framebreak
+    %\end{frame}
+
+
+
+
+
+
+    %\begin{frame}
+    %\frametitle{\subsecname}
+    \begin{enumerate}
+        \item item -2
+
+              \vspace{1cm}
+
+              \begin{enumerate}
+                  \item item-3
+
+                        \vspace{0.5cm}
+
+              \end{enumerate}
+
+    \end{enumerate}
+
+    \framebreak
+    %\end{frame}
+
+
+
+
+    %\begin{frame}
+    %\frametitle{\subsecname}
+    \begin{enumerate}
+        \item item 1
+
+              \vspace{1cm}
+
+              \begin{enumerate}
+                  \item item-2
+
+                        \vspace{0.5cm}
+                  \item item-2
+
+                        \vspace{0.5cm}
+                  \item  item-2
+
+
+              \end{enumerate}
+
+    \end{enumerate}
+\end{frame}
+%------------------------------------------------------------------------------
+
+
+%------------------------------------------------------------------------------
+\subsection{Traditional IQA vs SIQA}
+
+%------------------------------------------------------------------------------
+
+
+\begin{frame}
+    First Slide
+    \cite{wikibook}.
+
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+    \frametitle{References}
+    \printbibliography
+\end{frame}
+\end{document}

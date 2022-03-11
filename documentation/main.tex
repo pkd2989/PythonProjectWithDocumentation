@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{hyperref}
+\title{Report Template}
+\author{Piyush Kumar Dongre}
+
+%\usepackage[backend=biber,style=alphabetic, citestyle=ieee,natbib=true,hyperref=true]{biblatex}
+\usepackage[backend=biber,style=numeric, citestyle=ieee,natbib=true,hyperref=true,bibencoding=utf8]{biblatex}
+
+	
+\addbibresource{../assets/sample.bib}
+\begin{document}
+
+\maketitle
+% ----------------------------------------------
+\tableofcontents
+
+% ----------------------------------------------
+\section{Section-1}
+
+Some content.
+\cite{wikibook}.
+
+% ----------------------------------------------
+\section{References}
+
+\printbibliography
+
+% ----------------------------------------------
+\end{document}

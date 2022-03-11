@@ -1,0 +1,15 @@
+[1] Config.pm:311> INFO - This is Biber 2.16
+[2] Config.pm:314> INFO - Logfile is 'presentation.blg'
+[453] biber-MSWIN32:340> INFO - === 
+[567] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[1153] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[1223] Biber.pm:4340> INFO - Processing section 0
+[1260] Biber.pm:4531> INFO - Looking for bibtex format file '../assets/sample.bib' for section 0
+[1392] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1415] bibtex.pm:1494> INFO - Found BibTeX data source '../assets/sample.bib'
+[1515] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1515] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1516] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1516] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[1532] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[1533] bbl.pm:757> INFO - Output to presentation.bbl
